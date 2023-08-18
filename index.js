@@ -94,7 +94,7 @@ console.log(Biography);
 
 
 // Перевіримо чи являється Novel прототипом Biography та виведемо в консоль
-console.log(Biography.isPrototypeOf(Novel));
+console.log(Object.getPrototypeOf(Biography) === Novel);
 
 
 // 4. Інкапсуляція властивості та додання властивості
